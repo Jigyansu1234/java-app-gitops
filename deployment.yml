@@ -10,11 +10,11 @@ spec:
       app: java-app
   template:
     metadata:
-      Labels:
+      labels:                
         app: java-app
     spec:
       containers:
         - name: java-app
           image: jigyansu1234/java-app:v1
           ports:
-          - containerPort: 8080
+            - containerPort: 8080
