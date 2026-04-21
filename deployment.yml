@@ -18,3 +18,4 @@ spec:
           image: jigyansu1234/java-app:v1
           ports:
             - containerPort: 8080
+            
